@@ -1,0 +1,72 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+}
+h1 {
+  font-size: 48px;
+  margin: 30px auto;
+}
+
+h2 {
+  text-decoration: underline;
+  margin: 20px;
+}
+h4 {
+  padding: 30px;
+}
+h1,
+h2,
+h4 {
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #ca3e13;
+}
+.croissant {
+  font-size: 54px;
+  font-weight: bolder;
+  text-shadow: 3px 3px #7e1f03;
+}
+
+.nav-link {
+  padding: 20px 30px;
+  border: 1 #f1ba7a solid;
+  background-color: #ee9c3f;
+  margin: 20px;
+  color: antiquewhite;
+  box-shadow: 0 10px 10px 0px #f06868;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  font-size: large;
+  font-weight: bold;
+  color: #ca3e13;
+}
+
+.recipe {
+  list-style: none;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.contact-link {
+  margin: 40px auto;
+  display: block;
+  text-align: center;
+  color: #7e1f03;
+  font-size: 42px;
+}
+.contact-link:hover {
+  font-weight: bold;
+}
+.photos {
+  padding: 30px;
+}

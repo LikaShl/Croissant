@@ -9,21 +9,40 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Photos</title>
   </head>
   <body>
     <header>
       <div class="links">
-        <a href="/">Home</a>
-        <a href="/contakt.html">Contact</a>
-        <a href="/Photo.html">Photos</a>
+        <a href="/" class="nav-link">Home</a>
+        <a href="/contakt.html" class="nav-link">Contact</a>
+        <a href="/Photo.html" class="nav-link">Photos</a>
       </div>
     </header>
-    <div class="container">
-      <div>
-        <img src="/Images/Croissant.jpeg" alt="" />
-        <img src="/Images/Croissant2.jpg" alt="" />
-        <img src="/Images/featured-homemade-croissants-recipe.jpg" alt="" />
+    <div class="container, photos">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="/Images/Croissant.jpeg"
+            class="img-fluid"
+            max-width="500px"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/Images/Croissant2.jpg"
+            class="img-fluid"
+            max-width="500px"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/Images/Croisant3.jpg"
+            class="img-fluid"
+            max-width="500px"
+          />
+        </div>
       </div>
     </div>
   </body>
